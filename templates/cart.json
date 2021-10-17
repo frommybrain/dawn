@@ -27,10 +27,27 @@
       "settings": {
         "show_cart_note": false
       }
+    },
+    "16344832328ea0cbe1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You May Also Like",
+        "collection": "featured-products",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "16344832328ea0cbe1"
   ]
 }
