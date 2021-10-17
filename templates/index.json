@@ -95,18 +95,18 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
+        "fc4d11aa-2542-417a-b5a7-1a7d9b56b624": {
+          "type": "collection",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
+            "collection": "sale",
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "mama-commune-cushion",
             "second_image": false,
             "image_padding": false,
             "secondary_background": false
@@ -115,14 +115,14 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mama",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "video",
+        "fc4d11aa-2542-417a-b5a7-1a7d9b56b624",
         "product",
         "collection"
       ],
