@@ -4,7 +4,7 @@
   max-width:1200px;
   margin:5rem auto;
 }
-.multicolumn-list__item:first-child {
+.multicolumn-list__item {
   position:relative;
   padding:0;
 }
