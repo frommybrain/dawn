@@ -2,6 +2,7 @@
   "sections": {
     "16345074042d8c11b7": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
         "image_height": "medium",
@@ -16,12 +17,11 @@
     },
     "1634496796e7fcb20d": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1634496796e7fcb20d-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MereSoeur_Candles_1.1.jpg",
+            "image": "shopify:\/\/shop_images\/MereSoeur_candle_1.1.jpg",
             "title": "Shop Now",
             "text": "<p>Autumn\/Winter 2021<\/p>"
           }
@@ -42,7 +42,7 @@
       "settings": {
         "title": "",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
