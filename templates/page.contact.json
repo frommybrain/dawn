@@ -29,12 +29,12 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
       }
     },
     "163449406718b88675": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "163449406718b88675-0": {
           "type": "column",
