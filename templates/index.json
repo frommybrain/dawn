@@ -145,7 +145,7 @@
         "1634475059fddea470-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MereSoeur_ring_1.jpg",
+            "image": "shopify:\/\/shop_images\/MereSoeur_ring_2.jpg",
             "title": "",
             "text": ""
           }
@@ -153,6 +153,7 @@
         "1634475059fddea470-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/MereSoeur_candle_1.1.jpg",
             "title": "",
             "text": ""
           }
@@ -169,7 +170,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
-        "button_link": "",
+        "button_link": "shopify:\/\/pages\/shop",
         "swipe_on_mobile": false
       }
     },
