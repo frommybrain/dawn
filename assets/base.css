@@ -8,7 +8,7 @@
   position:relative;
   padding:0;
 }
-.multicolumn-list__item:first-child .multicolumn-card__image-wrapper {
+.multicolumn-list__item .multicolumn-card__image-wrapper {
   margin:0;
 
 }
