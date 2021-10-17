@@ -29,7 +29,7 @@
             "settings": {
               "text": "🎉 Sign up to our newsletter 🎉",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "#ContactFooter"
             }
           }
         },
