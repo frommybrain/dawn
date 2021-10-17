@@ -60,12 +60,19 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.main-page-title {
+	font-family: eckmannpsych-small,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
 .multicolumn-list__item:first-child h3:after {
   	content:url("https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_HandsSVG.svg?v=1634504966");
 	width: 80px;
     display: block;
     margin: 0 auto;
-  margin-top:-10px;
+  	margin-top:-10px;
 }
 .multicolumn-list__item:first-child .rte {
   display:none;
