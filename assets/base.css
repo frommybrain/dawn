@@ -52,8 +52,11 @@
   z-index:-1;
 }
 .multicolumn-list__item:first-child h3 {
-	text-transform: uppercase;
-    font-weight: 900;
+  font-family: eckmannpsych-small, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
 }
 .multicolumn-list__item:first-child .rte {
   margin-top:0;
