@@ -12,15 +12,30 @@
   margin:0;
 }
 
-@-webkit-keyframes display-none-transition {
-  0% {
-    opacity: 0;
-  }
+@keyframes flickerAnimation {
+  0%   { visibility:hidden; }
+  50% {visibility:visible;}
 }
-@keyframes display-none-transition {
-  0% {
-    opacity: 0;
-  }
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  49.9%   { opacity:1; }
+  50%.  {opacity:0}
+  99.9%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  49.9%   { opacity:1; }
+  50%.  {opacity:0}
+  99.9%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  49.9%   { opacity:1; }
+  50%.  {opacity:0}
+  99.9%  { opacity:0; }
+  100% { opacity:1; }
 }
 .multicolumn-list__item:first-child .multicolumn-card__info {
 	position: absolute;
@@ -29,10 +44,10 @@
     background: url('https://cdn.shopify.com/s/files/1/1438/8020/files/Asset_1w2048.jpg?v=1634480865');
     height: 100%;
   	background-size:cover;
-  opacity:1;
-  	-webkit-animation: display-none-transition 2s infinite;
-  animation: display-none-transition 2s infinite;
-  
+  	-webkit-animation: flickerAnimation 2s infinite;
+   	-moz-animation: flickerAnimation 2s infinite;
+   	-o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
 }
 
 :root,
