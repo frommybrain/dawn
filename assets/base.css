@@ -8,6 +8,11 @@
   position:relative;
   padding:0;
 }
+@media screen and (max-width: 749px) {
+  	#shopify-section-template--14162242797641__1634496796e7fcb20d .multicolumn-list__item:last-child {
+    	display:none;
+    }
+}
 @media screen and (min-width: 750px) {
 	.multicolumn-list__item:first-child .multicolumn-card__image-wrapper {
   		margin-left:0 !important;
