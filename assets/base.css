@@ -8,6 +8,7 @@
   position:relative;
   padding:0;
 }
+@media screen and (min-width: 750px) {
 .multicolumn-list__item:first-child .multicolumn-card__image-wrapper {
   margin-left:0 !important;
   margin-right:0.5rem !important;
@@ -15,6 +16,7 @@
 .multicolumn-list__item:last-child .multicolumn-card__image-wrapper {
   margin-right:0 !important;
   margin-left:0.5rem !important;
+}
 }
 @keyframes fadeIn {
   0% {
