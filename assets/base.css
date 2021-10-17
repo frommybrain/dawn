@@ -60,7 +60,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.main-page-title {
+.main-page-title.h0 {
 	font-family: eckmannpsych-small,sans-serif;
     font-weight: 400;
     font-style: normal;
