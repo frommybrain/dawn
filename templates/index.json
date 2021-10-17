@@ -2,6 +2,7 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -78,7 +79,7 @@
       "settings": {
         "title": "",
         "image_ratio": "portrait",
-        "color_scheme": "accent-2",
+        "color_scheme": "inverse",
         "swipe_on_mobile": false,
         "image_padding": false,
         "show_view_all": false
