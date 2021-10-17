@@ -30,7 +30,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/A54A346F-DFB3-4DCE-985E-964245D7D680.jpg",
+        "image": "shopify:\/\/shop_images\/MereSoeur_ring_1.jpg",
         "image_2": "shopify:\/\/shop_images\/P3300050.jpg",
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -139,6 +139,40 @@
         "show_rating": false
       }
     },
+    "1634475059fddea470": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634475059fddea470-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MereSoeur_ring_1.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "1634475059fddea470-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634475059fddea470-1",
+        "1634475059fddea470-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1634473666c0d9545f": {
       "type": "featured-collection",
       "settings": {
@@ -201,6 +235,7 @@
     "16344715401df6b85c",
     "rich_text",
     "featured_products",
+    "1634475059fddea470",
     "1634473666c0d9545f",
     "collage"
   ]
