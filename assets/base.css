@@ -27,7 +27,7 @@
     opacity:1;
   }
 }
-.multicolumn-list__item:first-child .multicolumn-card__info {
+#shopify-section-template--14162242797641__1634496796e7fcb20d .multicolumn-list__item:first-child .multicolumn-card__info {
 	position: absolute;
     top: 0;
     height: 100%;
@@ -38,7 +38,7 @@
   	animation:fadeIn 3s infinite;
 
 }
-.multicolumn-list__item:first-child .multicolumn-card__info::before {
+#shopify-section-template--14162242797641__1634496796e7fcb20d  .multicolumn-list__item:first-child .multicolumn-card__info::before {
 	content: "";
     display: block;
     position: absolute;
@@ -50,7 +50,7 @@
     transform: translateX(-50%);
     border-radius: 250px 250px 0 0;
 }
-.multicolumn-list__item:first-child h3 {
+#shopify-section-template--14162242797641__1634496796e7fcb20d  .multicolumn-list__item:first-child h3 {
   	font-family: eckmannpsych-small,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -67,14 +67,14 @@
     font-size: 50px;
 }
 
-.multicolumn-list__item:first-child h3:after {
+#shopify-section-template--14162242797641__1634496796e7fcb20d  .multicolumn-list__item:first-child h3:after {
   	content:url("https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_HandsSVG.svg?v=1634504966");
 	width: 80px;
     display: block;
     margin: 0 auto;
   	margin-top:-10px;
 }
-.multicolumn-list__item:first-child .rte {
+#shopify-section-template--14162242797641__1634496796e7fcb20d  .multicolumn-list__item:first-child .rte {
   display:none;
 }
 
