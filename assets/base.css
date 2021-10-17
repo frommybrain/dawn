@@ -47,10 +47,10 @@
     background: url('https://cdn.shopify.com/s/files/1/1438/8020/files/Asset_1w2048.jpg?v=1634480865');
     height: 100%;
   	background-size:cover;
-  	-webkit-animation: flickerAnimation 1s infinite;
-   	-moz-animation: flickerAnimation 1s infinite;
-   	-o-animation: flickerAnimation 1s infinite;
-    animation: flickerAnimation 1s infinite;
+  	-webkit-animation: flickerAnimation 2s infinite;
+   	-moz-animation: flickerAnimation 2s infinite;
+   	-o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
 }
 
 :root,
