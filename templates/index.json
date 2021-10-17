@@ -41,6 +41,49 @@
         "show_text_below": false
       }
     },
+    "16344715401df6b85c": {
+      "type": "collection-list",
+      "blocks": {
+        "16344715401df6b85c-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clothing"
+          }
+        },
+        "16344715401df6b85c-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gifts"
+          }
+        },
+        "16344715401df6b85c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories"
+          }
+        },
+        "f9e7e91d-c758-4390-a23b-126879ba0470": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "home"
+          }
+        }
+      },
+      "block_order": [
+        "16344715401df6b85c-0",
+        "16344715401df6b85c-1",
+        "16344715401df6b85c-2",
+        "f9e7e91d-c758-4390-a23b-126879ba0470"
+      ],
+      "settings": {
+        "title": "",
+        "image_ratio": "portrait",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "disabled": true,
@@ -133,49 +176,13 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
-    },
-    "16344715401df6b85c": {
-      "type": "collection-list",
-      "blocks": {
-        "16344715401df6b85c-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "16344715401df6b85c-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "16344715401df6b85c-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "16344715401df6b85c-0",
-        "16344715401df6b85c-1",
-        "16344715401df6b85c-2"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
     }
   },
   "order": [
     "image_banner",
+    "16344715401df6b85c",
     "rich_text",
     "featured_products",
-    "collage",
-    "16344715401df6b85c"
+    "collage"
   ]
 }
