@@ -1,24 +1,17 @@
 {
   "sections": {
-    "16344939159833eda7": {
-      "type": "collage",
-      "blocks": {
-        "db854390-9dd4-4c0a-bd3f-59aa419fd461": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "db854390-9dd4-4c0a-bd3f-59aa419fd461"
-      ],
+    "1634496780a03d322e": {
+      "type": "image-banner",
       "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
+        "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1634473666c0d9545f": {
@@ -39,7 +32,7 @@
     }
   },
   "order": [
-    "16344939159833eda7",
+    "1634496780a03d322e",
     "1634473666c0d9545f"
   ]
 }
