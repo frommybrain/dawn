@@ -20,6 +20,14 @@
     height: 100%;
   	background-size:cover;
 }
+.multicolumn-list__item:first-child .multicolumn-card__info::after {
+	content:"";
+  display:block;
+  position:absolute;
+  width:90%;
+  height:90%;
+  background:#EEC4DE;
+}
 
 :root,
 .color-background-1 {
