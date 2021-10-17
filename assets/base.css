@@ -8,9 +8,11 @@
   position:relative;
   padding:0;
 }
-.multicolumn-list__item .multicolumn-card__image-wrapper {
-  margin:0;
-
+.multicolumn-list__item:first-child .multicolumn-card__image-wrapper {
+  margin-left:0 !important;
+}
+.multicolumn-list__item:last-child .multicolumn-card__image-wrapper {
+  margin-right:0 !important;
 }
 @keyframes fadeIn {
   0% {
