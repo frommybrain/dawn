@@ -35,7 +35,7 @@
     width: calc(100% - 1.5rem);
   	background-size:cover;
   	padding:3rem !important;
-  	animation:faeIn 3s infinite;
+  	animation:fadeIn 3s infinite;
 
 }
 .multicolumn-list__item:first-child .multicolumn-card__info::before {
@@ -61,8 +61,10 @@
     transform: translateY(-50%);
 }
 .multicolumn-list__item:first-child h3:after {
-  content:url("https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_HandsSVG.svg?v=1634504966");
-	width:80px;
+  	content:url("https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_HandsSVG.svg?v=1634504966");
+	width: 100px;
+    display: block;
+    margin: 0 auto;
 }
 .multicolumn-list__item:first-child .rte {
   display:none;
