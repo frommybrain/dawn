@@ -4,6 +4,21 @@
   max-width:1200px;
   margin:5rem auto;
 }
+.multicolumn-list__item {
+  position:relative;
+  padding:0;
+}
+.multicolumn-card__image-wrapper {
+  margin:0;
+}
+.multicolumn-card__info {
+	position: absolute;
+    top: 0;
+    width: 100%;
+    background: url('https://cdn.shopify.com/s/files/1/1438/8020/files/Asset_1w2048.jpg?v=1634480865');
+    height: 100%;
+  background-size:cover;
+}
 
 :root,
 .color-background-1 {
