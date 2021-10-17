@@ -73,7 +73,7 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.main-page-title.h0 {
+.main-page-title.h0, .collection-hero__title {
 	font-family: eckmannpsych-small,sans-serif;
     font-weight: 400;
     font-style: normal;
