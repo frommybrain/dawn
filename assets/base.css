@@ -36,7 +36,9 @@
 	text-transform: uppercase;
     font-weight: 900;
 }
-  
+.multicolumn-list__item:first-child .rte {
+  margin-top:0;
+}
 
 :root,
 .color-background-1 {
