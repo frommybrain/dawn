@@ -1,208 +1,24 @@
 {
   "sections": {
-    "1634475059fddea470": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634475059fddea470-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1634475059fddea470-1"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "shopify:\/\/pages\/shop",
-        "swipe_on_mobile": false
-      }
-    },
-    "collage": {
+    "16344939159833eda7": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
-        "925ec931-40e6-4bf7-890a-f566a3f47e15": {
+        "db854390-9dd4-4c0a-bd3f-59aa419fd461": {
           "type": "image",
           "settings": {
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "mama-commune-cushion",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "mama",
+            "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "925ec931-40e6-4bf7-890a-f566a3f47e15",
-        "product",
-        "collection"
+        "db854390-9dd4-4c0a-bd3f-59aa419fd461"
       ],
       "settings": {
         "heading": "",
         "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/MereSoeur_ring_2.jpg",
-        "image_2": "shopify:\/\/shop_images\/MereSoeur-candle-1.2.gif",
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
-    "16344715401df6b85c": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "16344715401df6b85c-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clothing"
-          }
-        },
-        "16344715401df6b85c-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "gifts"
-          }
-        },
-        "16344715401df6b85c-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        },
-        "f9e7e91d-c758-4390-a23b-126879ba0470": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "home"
-          }
-        }
-      },
-      "block_order": [
-        "16344715401df6b85c-0",
-        "16344715401df6b85c-1",
-        "16344715401df6b85c-2",
-        "f9e7e91d-c758-4390-a23b-126879ba0470"
-      ],
-      "settings": {
-        "title": "",
-        "image_ratio": "portrait",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
+        "mobile_layout": "column"
       }
     },
     "1634473666c0d9545f": {
@@ -223,12 +39,7 @@
     }
   },
   "order": [
-    "1634475059fddea470",
-    "collage",
-    "image_banner",
-    "16344715401df6b85c",
-    "rich_text",
-    "featured_products",
+    "16344939159833eda7",
     "1634473666c0d9545f"
   ]
 }
