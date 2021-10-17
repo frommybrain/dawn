@@ -29,10 +29,45 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1634496796e7fcb20d": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634496796e7fcb20d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MereSoeur_candle_1.1.jpg",
+            "title": "Shop Now",
+            "text": "<p>GIFTS \/ HOMEWARE<\/p>"
+          }
+        },
+        "1634496796e7fcb20d-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1634496796e7fcb20d-0",
+        "1634496796e7fcb20d-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "1634496780a03d322e",
-    "1634473666c0d9545f"
+    "1634473666c0d9545f",
+    "1634496796e7fcb20d"
   ]
 }
