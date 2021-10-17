@@ -35,7 +35,7 @@
     width: calc(100% - 1.5rem);
   	background-size:cover;
   	padding:3rem !important;
-  	animation:fadeIn 3s infinite;
+  	animation:faeIn 3s infinite;
 
 }
 .multicolumn-list__item:first-child .multicolumn-card__info::before {
