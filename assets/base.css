@@ -4,11 +4,11 @@
   max-width:1200px;
   margin:5rem auto;
 }
-.multicolumn-list__item {
+.multicolumn-list__item:first-child {
   position:relative;
   padding:0;
 }
-.multicolumn-card__image-wrapper {
+.multicolumn-list__item:first-child .multicolumn-card__image-wrapper {
   margin:0;
 }
 
@@ -32,16 +32,16 @@
   50%  { opacity:0; }
   100% { opacity:1; }
 }
-.multicolumn-card__info {
+.multicolumn-list__item:first-child .multicolumn-card__info {
 	position: absolute;
     top: 0;
     width: 100%;
     background: url('https://cdn.shopify.com/s/files/1/1438/8020/files/Asset_1w2048.jpg?v=1634480865');
     height: 100%;
   	background-size:cover;
-  -webkit-animation: flickerAnimation 1s infinite;
-   -moz-animation: flickerAnimation 1s infinite;
-   -o-animation: flickerAnimation 1s infinite;
+  	-webkit-animation: flickerAnimation 1s infinite;
+   	-moz-animation: flickerAnimation 1s infinite;
+   	-o-animation: flickerAnimation 1s infinite;
     animation: flickerAnimation 1s infinite;
 }
 
