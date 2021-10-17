@@ -12,6 +12,17 @@
   margin:0;
 
 }
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  49.9% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+}
 .multicolumn-list__item:first-child .multicolumn-card__info {
 	position: absolute;
     top: 0;
@@ -20,6 +31,8 @@
     height: 100%;
   	background-size:cover;
   padding:3rem;
+  animation:fadeIn 1s infinite;
+
 }
 .multicolumn-list__item:first-child .multicolumn-card__info::after {
 	content: "";
