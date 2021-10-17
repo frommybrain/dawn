@@ -1,7 +1,43 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "163449406718b88675": {
+      "type": "multicolumn",
+      "blocks": {
+        "163449406718b88675-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Press and Collaborations<\/strong><\/p><p><a href=\"mailto:emily@emilyyeoh.com\" target=\"_blank\" title=\"mailto:emily@emilyyeoh.com\">emily@emilyyeoh.com<\/a><\/p><p>.<\/p><p><strong>Shop Enquiries<br\/><\/strong><a href=\"mailto:hello@meresoeur.com\" target=\"_blank\" title=\"mailto:hello@meresoeur.com\">hello@meresoeur.com<\/a><\/p><p><\/p>"
+          }
+        },
+        "163449406718b88675-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Ordering & Shipping<\/strong><\/p><p>We ship worldwide & aim to get orders dispatched within 7 working days, often sooner. <\/p><p>All orders over £20 in value are sent via recorded services. All orders under £20 are sent via standard delivery services (no tracking).<\/p><p>We use Royal Mail for all orders.<\/p><p>.<\/p><p><strong>Returns, Refunds & Exchanges<\/strong><\/p><p>We accept returns & exchanges on most of our items as long as they are in resellable condition. A few times a year, we may have a final blowout on end of season items, in that case, those sales are final. <\/p><p>If you need to exchange for a different size please send us an email so we can confirm size availability at <a href=\"mailto:hello@meresoeur.com\" target=\"_blank\" title=\"mailto:hello@meresoeur.com\">hello@meresoeur.com<\/a><\/p><p>All return order issues must be handled within 21 days of order date. <\/p><p>Since we are a small independent business all postage on returns and exchanges are at the cost of the buyer - thanks for your support & understanding! Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.<\/p><p>Depending on where you live, the time it may take for your exchanged product to reach you, may vary.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163449406718b88675-0",
+        "163449406718b88675-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     },
     "form": {
       "type": "contact-form",
@@ -12,6 +48,7 @@
   },
   "order": [
     "main",
+    "163449406718b88675",
     "form"
   ]
 }
