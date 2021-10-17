@@ -1,17 +1,38 @@
 {
   "sections": {
-    "1634496780a03d322e": {
-      "type": "image-banner",
+    "1634496796e7fcb20d": {
+      "type": "multicolumn",
+      "blocks": {
+        "1634496796e7fcb20d-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MereSoeur_Candles_1.1.jpg",
+            "title": "Shop Now",
+            "text": "<p>Autumn\/Winter 2021<\/p>"
+          }
+        },
+        "1634496796e7fcb20d-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MereSoeur_mugs.jpg",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634496796e7fcb20d-0",
+        "1634496796e7fcb20d-2"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
       }
     },
     "1634473666c0d9545f": {
@@ -29,45 +50,10 @@
         "show_vendor": false,
         "show_rating": false
       }
-    },
-    "1634496796e7fcb20d": {
-      "type": "multicolumn",
-      "blocks": {
-        "1634496796e7fcb20d-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MereSoeur_candle_1.1.jpg",
-            "title": "Shop Now",
-            "text": "<p>GIFTS \/ HOMEWARE<\/p>"
-          }
-        },
-        "1634496796e7fcb20d-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1634496796e7fcb20d-0",
-        "1634496796e7fcb20d-2"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
-    "1634496780a03d322e",
-    "1634473666c0d9545f",
-    "1634496796e7fcb20d"
+    "1634496796e7fcb20d",
+    "1634473666c0d9545f"
   ]
 }

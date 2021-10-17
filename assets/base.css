@@ -34,7 +34,7 @@
   	animation:fadeIn 3s infinite;
 
 }
-.multicolumn-list__item:first-child .multicolumn-card__info::after {
+.multicolumn-list__item:first-child .multicolumn-card__info::before {
 	content: "";
     display: block;
     position: absolute;
