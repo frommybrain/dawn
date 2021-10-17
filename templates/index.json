@@ -54,8 +54,8 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "collection": "accessories",
-        "products_to_show": 8,
+        "collection": "clothing",
+        "products_to_show": 6,
         "show_view_all": true,
         "swipe_on_mobile": false,
         "image_ratio": "portrait",
