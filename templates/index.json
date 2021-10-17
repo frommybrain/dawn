@@ -1,7 +1,22 @@
 {
   "sections": {
+    "16345074042d8c11b7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1634496796e7fcb20d": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1634496796e7fcb20d-0": {
           "type": "column",
@@ -39,7 +54,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "collection": "featured-products",
+        "collection": "accessories",
         "products_to_show": 8,
         "show_view_all": true,
         "swipe_on_mobile": false,
@@ -53,6 +68,7 @@
     }
   },
   "order": [
+    "16345074042d8c11b7",
     "1634496796e7fcb20d",
     "1634473666c0d9545f"
   ]
