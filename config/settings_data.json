@@ -27,7 +27,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Sign up to our newsletter",
+              "text": "🎉 Sign up to our newsletter 🎉",
               "color_scheme": "inverse",
               "link": ""
             }
