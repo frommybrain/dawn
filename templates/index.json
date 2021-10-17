@@ -1,5 +1,45 @@
 {
   "sections": {
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "91b3d008-c125-41b7-8013-f6921f66f51c": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "mama-commune-cushion",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "mama",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "91b3d008-c125-41b7-8013-f6921f66f51c",
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -141,6 +181,7 @@
     },
     "1634475059fddea470": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1634475059fddea470-1": {
           "type": "column",
@@ -189,55 +230,15 @@
         "show_vendor": false,
         "show_rating": false
       }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "fc4d11aa-2542-417a-b5a7-1a7d9b56b624": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "mama-commune-cushion",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "mama",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "fc4d11aa-2542-417a-b5a7-1a7d9b56b624",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
     }
   },
   "order": [
+    "collage",
     "image_banner",
     "16344715401df6b85c",
     "rich_text",
     "featured_products",
     "1634475059fddea470",
-    "1634473666c0d9545f",
-    "collage"
+    "1634473666c0d9545f"
   ]
 }
