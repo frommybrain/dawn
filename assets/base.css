@@ -60,6 +60,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
+.multicolumn-list__item:first-child h3:after {
+  content:"https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_HandsSVG.svg?v=1634504966";
+}
 .multicolumn-list__item:first-child .rte {
   display:none;
 }
