@@ -1,0 +1,77 @@
+{%- assign t = template -%}
+{%- if t contains 'product' -%}
+  {%- assign pageType = "product" -%}
+{%- elsif t contains 'collection' -%}
+  {%- assign pageType = "collection" -%}
+{%- elsif t contains 'index' -%}
+  {%- assign pageType = "home" -%}
+{%- elsif t contains 'cart' -%}
+  {%- assign pageType = "cart" -%}
+{%- elsif t contains 'search' -%}
+  {%- assign pageType = "search" -%}
+{%- elsif t contains '404' -%}
+  {%- assign pageType = "404" -%}
+{%- elsif t contains 'blog' -%}
+  {%- assign pageType = "blog" -%}
+{%- elsif t contains 'article' -%}
+  {%- assign pageType = "article" -%}
+{%- elsif t contains 'page.epica' or t contains 'page' -%}
+  {%- if page.handle contains 'search' -%}
+    {%- assign pageType = "search" -%}
+  {%- elsif page.handle contains 'personal-recommendation' -%}
+    {%- assign pageType = "personal" -%}
+  {%- else -%}
+    {%- assign pageType = page.handle -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign pageType = t -%}
+{%- endif -%}
+{%- assign cartJson = cart | json -%}
+{%- assign cartToken = cartJson | split: 'token":"' | last | split: '"' | first -%}
+{%- assign cartItems = "" -%}
+{%- for item in cart.items -%}
+  {%- assign cartItems = cartItems | append: ',"' | append: item.product_id | append: '_' | append: item.variant_id | append: '"' -%}
+{%- endfor -%}
+{%- assign productSku = nil -%}
+{%- if product -%}
+  {%- assign productSku = product.id | append: '_' | append: product.selected_or_first_available_variant.id -%}
+{%- endif -%}
+{%- assign isEpicaSearchPage = false -%}
+{%- if pageType == 'search' and t contains 'page.epica' -%}
+  {%- assign isEpicaSearchPage = true -%}
+{%- endif -%}
+<script type="text/javascript">
+window.__epicaMetaData = {
+  cartItems: [{{ cartItems | remove_first: "," }}],
+  cartToken: "{{ cartToken }}",
+  pageType: "{{ pageType }}",
+  collectionTitle: "{{ collection.title }}",
+  productSku: "{{ productSku }}",
+  searchQuery: "{{ search.terms | escape }}",
+  isEpicaSearchPage: {{ isEpicaSearchPage }},
+  {%- if customer.id -%}
+    customer: {
+      id: "{{ customer.id }}",
+      name: "{{ customer.name }}",
+      firstName: "{{ customer.first_name }}",
+      lastName: "{{ customer.last_name }}",
+      email: "{{ customer.email }}",
+      phone: "{{ customer.default_address.phone }}",
+      address: {
+        street: "{{ customer.default_address.street }}",
+        city: "{{ customer.default_address.city }}",
+        state: "{{ customer.default_address.province }}",
+        stateCode: "{{ billing_address.province_code }}",
+        postalCode: "{{ customer.default_address.zip }}",
+        country: "{{ customer.default_address.country }}",
+        countryCode: "{{ customer.default_address.country_code }}"
+      },
+      totalSpent: "{{ customer.total_spent }}",
+      allOrdersCount: "{{ customer.orders_count }}",
+      allOrderIds: [{%- for order in customer.orders -%} "{{ order.id }}", {%- endfor -%}],
+      tags: [{%- for tag in customer.tags -%} "{{ tag }}", {%- endfor -%}]
+    },
+  {%- endif -%}
+}
+</script>
+<script type="text/javascript" src="https://cdn.epica.ai/shopify-integration/pixel/epica-pixel.js?w=408f0210a3f182dc4d3ed8b5ad1aad37" async></script>

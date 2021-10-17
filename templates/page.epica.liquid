@@ -1,0 +1,63 @@
+<style id="epica-page-style">
+  #epica-page {
+    box-sizing: border-box;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  #epica-page #epica-page-top-widgets,
+  #epica-page #epica-page-bottom-widgets {
+  	margin: 10px auto;
+  }
+
+  #epica-page #epica-page-header {
+    text-align: center;
+    margin: 10px auto 0;
+  }
+
+  #epica-page #epica-page-loading {
+  	margin: auto;
+    width: 80px;
+  }
+</style>
+
+<div id="epica-page" class="epica-page">
+  <div id="epica-page-header" class="epica-page-header" style="display: none">
+    <h1 id="epica-page-title">{{ page.title }}</h1>
+  </div>
+
+  <div id="epica-page-top-widgets" class="epica-page-top-widgets"></div>
+
+  <div id="epica-page-content" class="epica-page-content">
+  	{{ page.content }}
+    <div id="epica-page-loading" class="epica-page-loading">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid"
+        style="background: rgba(0, 0, 0, 0.001)"
+      >
+        <path
+          stroke="none"
+          d="M10 50A40 40 0 0 0 90 50A40 42 0 0 1 10 50"
+          fill="#E6E6E6"
+          transform="rotate(41.8831 50 51)"
+        >
+          <animateTransform
+            attributeName="transform"
+            type="rotate"
+            calcMode="linear"
+            values="0 50 51;360 50 51"
+            keyTimes="0;1"
+            dur="1s"
+            begin="0s"
+            repeatCount="indefinite"
+          ></animateTransform>
+        </path>
+      </svg>
+    </div>
+  </div>
+
+  <div id="epica-page-bottom-widgets" class="epica-page-bottom-widgets"></div>
+</div>
