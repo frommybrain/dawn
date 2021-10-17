@@ -44,6 +44,7 @@
     },
     "16344715401df6b85c": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16344715401df6b85c-0": {
           "type": "featured_collection",
@@ -144,7 +145,7 @@
         "fc4d11aa-2542-417a-b5a7-1a7d9b56b624": {
           "type": "collection",
           "settings": {
-            "collection": "sale",
+            "collection": "",
             "image_padding": false,
             "color_scheme": "background-1"
           }
@@ -177,6 +178,22 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "1634473666c0d9545f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "clothing",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
@@ -184,6 +201,7 @@
     "16344715401df6b85c",
     "rich_text",
     "featured_products",
-    "collage"
+    "collage",
+    "1634473666c0d9545f"
   ]
 }
