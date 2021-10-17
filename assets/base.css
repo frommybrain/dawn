@@ -32,6 +32,11 @@
     transform: translateX(-50%);
     border-radius: 250px 250px 0 0;
 }
+.multicolumn-list__item:first-child h3 {
+	text-transform: uppercase;
+    font-weight: 900;
+}
+  
 
 :root,
 .color-background-1 {
