@@ -1,5 +1,7 @@
 /* Color custom properties */
-
+#MainContent {
+  margin-bottom:3rem;
+}
 .banner--small {
   max-width:1200px;
   margin:5rem auto;
