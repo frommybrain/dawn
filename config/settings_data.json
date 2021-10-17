@@ -2,14 +2,19 @@
   "current": {
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#eec4de",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#f3f3f3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "type_header_font": "helvetica_n3",
+    "type_body_font": "helvetica_n3",
     "page_width": "1200",
+    "social_instagram_link": "https:\/\/instagram.com\/mre.soeur",
+    "favicon": "shopify:\/\/shop_images\/mere_soeur_website_logo_w320_7602b660-e1c7-425b-a4d9-d760969dc4f1.jpg",
+    "checkout_accent_color": "#eec4de",
+    "checkout_button_color": "#eec4de",
+    "checkout_error_color": "#e52420",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
