@@ -52,6 +52,7 @@
 }
 .multicolumn-list__item:first-child .rte {
   margin-top:0;
+  z-index:99;
 }
 
 :root,
