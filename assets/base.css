@@ -25,12 +25,12 @@
     display: block;
     position: absolute;
     width: 90%;
-    height: 90%;
+    height: 85%;
     background: #eec4de;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 100% 100% 0 0;
+    border-radius: 250px 250px 0 0;
 }
 
 :root,
