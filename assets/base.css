@@ -30,8 +30,8 @@
     background: #F0E7DF;
     height: 100%;
   	background-size:cover;
-  padding:3rem;
-  animation:fadeIn 1s infinite;
+  	padding:3rem !important;
+  	animation:fadeIn 1s infinite;
 
 }
 .multicolumn-list__item:first-child .multicolumn-card__info::after {
