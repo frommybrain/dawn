@@ -2,8 +2,21 @@
   "sections": {
     "16344958167eb4f902": {
       "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "3ae403fc-dac7-4da1-87bc-45a292f5a3d0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "3ae403fc-dac7-4da1-87bc-45a292f5a3d0"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mere-Soeur-Contact-Us.gif",
+        "image": "shopify:\/\/shop_images\/Mere-Soeur-Checked-Background.gif",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
@@ -16,12 +29,12 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
     "163449406718b88675": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "163449406718b88675-0": {
           "type": "column",
