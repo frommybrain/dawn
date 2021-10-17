@@ -35,7 +35,7 @@
     width: calc(100% - 1.5rem);
   	background-size:cover;
   	padding:3rem !important;
-  	animation:faeIn 3s infinite;
+  	animation:fadeIn 3s infinite;
 
 }
 .multicolumn-list__item:first-child .multicolumn-card__info::before {
@@ -49,17 +49,19 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 250px 250px 0 0;
-  	z-index:-1;
 }
 .multicolumn-list__item:first-child h3 {
-  font-family: eckmannpsych-small, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size:30px;
+  	font-family: eckmannpsych-small,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .multicolumn-list__item:first-child .rte {
-  margin-top:0;
-  z-index:99;
+  display:none;
 }
 
 :root,
