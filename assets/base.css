@@ -2437,10 +2437,10 @@ details-disclosure > details {
     position:absolute;
   }
   .handshake:before {
-    left:0;
-    top:50%;
+    left:-100px;
+    margin-top:43px;
   }
   .handshake:after {
-    right:0;
-    top:50%;
+    right:100px;
+    margin-top:-43px;
   }
