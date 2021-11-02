@@ -2438,9 +2438,9 @@ details-disclosure > details {
   }
   .handshake:before {
     left:-100px;
-    margin-top:30px;
+    margin-top:29px;
   }
   .handshake:after {
     right:-100px;
-    margin-top:-30px;
+    margin-top:-31px;
   }
