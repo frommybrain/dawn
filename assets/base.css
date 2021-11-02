@@ -2421,3 +2421,6 @@ details-disclosure > details {
     stroke: CanvasText;
   }
 }
+.handshake {
+  width:200px;
+}
