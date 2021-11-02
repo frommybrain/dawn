@@ -2428,3 +2428,9 @@ details-disclosure > details {
   width:160px;
   margin:0 auto;
 }
+  .handshake:before, .handshake:after {
+  	content:"";
+    width:100%;
+    height:1px;
+    background:#000000;
+  }
