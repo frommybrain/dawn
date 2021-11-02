@@ -2431,7 +2431,7 @@ details-disclosure > details {
   	content:"";
     width:50%;
     height:1px;
-    background:#000000;
+    background:rgba(var(--color-foreground),.08);
     display:block;
     position:absolute;
   }
