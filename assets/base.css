@@ -2430,7 +2430,7 @@ details-disclosure > details {
 }
   .handshake:before, .handshake:after {
   	content:"";
-    width:100%;
+    width:50%;
     height:1px;
     background:#000000;
     display:block;
