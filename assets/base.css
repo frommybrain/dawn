@@ -2422,6 +2422,7 @@ details-disclosure > details {
   }
 }
 #shopify-section-footer .footer {
+  border-top:none;
 }
 .handshake {
   width:160px;
@@ -2437,7 +2438,9 @@ details-disclosure > details {
   }
   .handshake:before {
     left:0;
+    top:50%;
   }
   .handshake:after {
     right:0;
+    top:50%;
   }
