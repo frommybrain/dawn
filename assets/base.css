@@ -2434,8 +2434,11 @@ details-disclosure > details {
     height:1px;
     background:#000000;
     display:block;
+    position:absolute;
   }
   .handshake:before {
+    left:0;
   }
   .handshake:after {
+    right:0;
   }
