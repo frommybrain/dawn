@@ -2441,6 +2441,6 @@ details-disclosure > details {
     margin-top:43px;
   }
   .handshake:after {
-    right:100px;
+    right:-100px;
     margin-top:-43px;
   }
