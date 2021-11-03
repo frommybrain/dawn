@@ -289,8 +289,21 @@
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons">
                     
-                    
-                    
+                    <script>
+LottieInteractivity.create({
+  mode: 'scroll',
+  player: '#firstLottie',
+  actions: [
+      {
+        visibility[0,1],
+        type: 'seek',
+        frames: [0, 60],
+      },
+    ],
+});
+</script>
+                   <lottie-player id="firstLottie" src="https://assets5.lottiefiles.com/packages/lf20_gBSX7L.json" style="width:400px; height: 400px;">"></lottie-player>
+
                     <button
                       type="submit"
                       name="add"
@@ -298,7 +311,6 @@
                     {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                     >
                       
-                      <lottie-player id="firstLottie" src="https://assets5.lottiefiles.com/packages/lf20_gBSX7L.json" style="width:400px; height: 400px;">"></lottie-player>
 
                       
                         <span>
