@@ -1,3 +1,14 @@
+<link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-product-grid.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-product-recommendations.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-product-grid.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- if section.settings.show_product_recommendations and cart.item_count > 0 -%}
 
 {%- for item in cart.items -%}
     {%- assign product_rec = item.product -%}
@@ -35,6 +46,7 @@
   {%- else  -%}
     <div class="page-width" data-base-url="{{ routes.product_recommendations_url }}" data-product-id="{{ product_rec.id }}" data-section-id="{{ section.id }}" data-section-type="product-recommendations"></div>
   {%- endif -%}
+{%- endif -%}
 {% schema %}
 {
   "name": {
