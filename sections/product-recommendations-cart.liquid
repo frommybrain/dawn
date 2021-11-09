@@ -1,14 +1,77 @@
+{%- if section.settings.show_product_recommendations and cart.item_count > 0 -%}
+
+{%- for item in cart.items -%}
+    {%- assign product_rec = item.product -%}
+{%- endfor -%}
+
+  {%- if recommendations.performed -%}
+    {%- if recommendations.products_count > 0 -%}
+      <div class="product-recommendations__inner">
+        {%- if section.settings.heading != blank -%}
+          <div class="section-header text-center">
+            <h2>{{ section.settings.heading | escape }}</h2>
+          </div>
+        {%- endif -%}
+        <ul class="grid grid--uniform grid--view-items">
+          {%- for product in recommendations.products -%}
+          
+           {%- assign display = true -%}
+            
+            {%- for item in cart.items -%}
+                {%- if item.product.id == product.id -%}
+                    {%- assign display = false -%}
+                {%- endif -%}
+            {%- endfor -%}
+          
+          {%- if display == true -%}
+            <li class="grid__item small--one-half medium-up--one-quarter">
+              {% include 'product-card-grid', max_height: 250, product: product, show_vendor: section.settings.show_vendor %}
+            </li>
+          {%- endif -%}
+          
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+  {%- else  -%}
+    <div class="page-width" data-base-url="{{ routes.product_recommendations_url }}" data-product-id="{{ product_rec.id }}" data-section-id="{{ section.id }}" data-section-type="product-recommendations"></div>
+  {%- endif -%}
+{%- endif -%}
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": {
+    "en": "Product Recommend Cart"
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_product_recommendations",
+      "label": {
+        "en": "Show dynamic recommendations"
+      },
+      "info": {      
+        "en": "Dynamic recommendations change and improve with time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)"
+      },
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": {
+        "en": "Heading"
+      },
+      "default": {
+        "en": "You may also like"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": {
+        "en": "Show vendor"
+      },
+      "default": false
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
-
-hello
