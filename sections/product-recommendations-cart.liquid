@@ -1,15 +1,1 @@
-{% for product in collection.upsell %}
-  	{% assign prodHand = product.title %} 
-  			{% for item in cart.items %}
-  					{% if item.title == prodHand %}
-						{% assign inThere = true %}
-					{% endif %}
-			{% endfor %}
-	{% if inThere %}
-<p>{{ prodHand }} is in there</p>
-				{% else %}
-<p>{{ prodHand }} is not there</p>
-{{ collection.upsell }}
-	{% endif %}
-	{% assign inThere = false %}
-{% endfor %}
+hello
