@@ -6,11 +6,6 @@
         "show_vendor": false
       }
     },
-    "cart-recos": {
-      "type": "product-recommendations-cart",
-      "settings": {
-      }
-    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -36,7 +31,6 @@
   },
   "order": [
     "cart-items",
-    "cart-recos",
     "cart-footer"
   ]
 }
