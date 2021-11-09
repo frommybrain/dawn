@@ -7,9 +7,8 @@
       }
     },
     "cart-recos": {
-      "type": "product-recommendations",
+      "type": "product-recommendations-cart",
       "settings": {
-        "show_vendor": false
       }
     },
     "cart-footer": {
