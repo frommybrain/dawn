@@ -2462,6 +2462,10 @@ details-disclosure > details {
     .handshake:before, .handshake:after {
       display:none;
     }
+    #Banner-template--14162242797641__16345074042d8c11b7 .media::after {
+    	width:120px;
+      height:120px;
+    }
   }
   
 #Banner-template--14162242797641__16345074042d8c11b7 {
