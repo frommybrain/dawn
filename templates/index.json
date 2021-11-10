@@ -2,13 +2,12 @@
   "sections": {
     "16345074042d8c11b7": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MereSoeur-ring-landscape-1.1.gif",
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/Mere_Soeur_Main_Image.jpg",
+        "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -17,6 +16,7 @@
     },
     "1634496796e7fcb20d": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1634496796e7fcb20d-0": {
           "type": "column",
