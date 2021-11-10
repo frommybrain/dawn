@@ -2475,6 +2475,9 @@ details-disclosure > details {
    background-repeat:no-repeat;
    height:150px;
    width:150px;
-   
+   position:absolute;
+  background-size:100%;
+  top:0;
+  right:0px;
  }
   
