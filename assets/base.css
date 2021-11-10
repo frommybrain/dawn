@@ -2449,7 +2449,13 @@ details-disclosure > details {
   }
   
   
-  
+@keyframes wiggle {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(0deg); }
+   85% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
   
 #Banner-template--14162242797641__16345074042d8c11b7 {
   margin-bottom:0;
@@ -2466,6 +2472,8 @@ details-disclosure > details {
   background-size:100%;
   top:0;
   right:0px;
+    animation: wiggle 2.5s infinite;
+
  }
   
 /* DESTOP STYLES */
