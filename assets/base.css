@@ -2448,14 +2448,30 @@ details-disclosure > details {
     margin-top:-31px;
   }
   
+  
+  /* DESTOP STYLES */
   @media screen and (min-width: 789px){
-#product-grid .grid__item, .collection .grid__item{
-     width: 100% !important;
-     max-width: 33.3333% !important;
- }
-}
+    #product-grid .grid__item, .collection .grid__item{
+      width: 100% !important;
+      max-width: 33.3333% !important;
+    }
+  }
+  
+  /* MOBILE STYLES */
+  @media screen and (min-width: 789px){
+    .handshake:before, .handshake:after {
+      display:none;
+    }
+  }
   
 #Banner-template--14162242797641__16345074042d8c11b7 {
   margin-bottom:0;
   max-width:1150px;
 }
+  
+ #Banner-template--14162242797641__16345074042d8c11b7::before {
+ 	content:"";
+   background:url('  https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_Round_Hands_Logo.png?v=1636571817');
+   background-repeat:no-repeat;
+ }
+  
