@@ -2422,7 +2422,7 @@ details-disclosure > details {
   }
 }
  body {
- 	overflow-x:hidden !important;
+ 	overflow-x:hidden;
  }
 #shopify-section-footer .footer {
   border-top:none;
@@ -2453,4 +2453,10 @@ details-disclosure > details {
      width: 100% !important;
      max-width: 33.3333% !important;
  }
+}
+  
+#Banner-template--14162242797641__16345074042d8c11b7 {
+  margin-top:0;
+  margin-bottom:0;
+  max-width:1150px;
 }
