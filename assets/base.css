@@ -2422,7 +2422,7 @@ details-disclosure > details {
   }
 }
  body {
- 	overflow-x:hidden;
+ 	overflow-x:hidden !important;
  }
 #shopify-section-footer .footer {
   border-top:none;
