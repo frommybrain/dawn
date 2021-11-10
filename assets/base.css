@@ -2458,7 +2458,7 @@ details-disclosure > details {
   }
   
   /* MOBILE STYLES */
-  @media screen and (min-width: 789px){
+  @media screen and (max-width: 789px){
     .handshake:before, .handshake:after {
       display:none;
     }
