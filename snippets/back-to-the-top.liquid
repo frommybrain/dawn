@@ -13,12 +13,21 @@
   <img height="120px" src="https://cdn.shopify.com/s/files/1/1438/8020/files/Mere_Soeur_Scroll_Up.png?v=1637174134" />
 </a>
 <style>
+  @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+    }
   .back-to-top {
     position: fixed;
     bottom: {{ position_from_bottom }};
     right: 20px;
     padding: 0.3em;
     z-index: 60000;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+        animation-iteration-count: infinite;
   }
   .hide {
     display: none!important;
