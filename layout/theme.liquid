@@ -176,6 +176,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    
+    {% render 'back-to-the-top' %}
+
 
   </body>
 </html>
