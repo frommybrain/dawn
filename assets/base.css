@@ -2501,7 +2501,7 @@ details-disclosure > details {
 }
 
 .red_bulb {
-  fill: #CA2128;
+  fill: #EEC4DE;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
@@ -2513,7 +2513,7 @@ details-disclosure > details {
 }
 
 .blue_bulb {
-  fill: #2C3EA8;
+  fill: #EEC4DE;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
@@ -2525,7 +2525,7 @@ details-disclosure > details {
 }
 
 .gold_bulb {
-  fill: #ffcc5e;
+  fill: #EEC4DE;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
