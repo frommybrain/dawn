@@ -26,15 +26,25 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🎉 Sign up to our newsletter 🎉",
               "color_scheme": "inverse",
               "link": "#ContactFooter"
             }
+          },
+          "42ddc1eb-7b6a-46f3-906d-4ec474b1780a": {
+            "type": "announcement",
+            "settings": {
+              "text": "🎄 Last date for orders before xmas - 17th December! 🎄",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "42ddc1eb-7b6a-46f3-906d-4ec474b1780a"
         ],
         "settings": {
         }
