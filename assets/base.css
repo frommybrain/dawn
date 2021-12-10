@@ -2473,6 +2473,7 @@ details-disclosure > details {
   top:0;
   right:0px;
     animation: wiggle 2.5s infinite;
+  display:none;
 
  }
   
