@@ -2481,7 +2481,7 @@ details-disclosure > details {
   
   }
   
-  #Christmas_Lights {
+ #Christmas_Lights {
   height: 100%;
   margin: 0;
   position: absolute;
@@ -2636,7 +2636,13 @@ details-disclosure > details {
     }
   
   #Christmas_Lights {
-  	margin-top:-25px;
-  }
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+    margin-top:-25px;
+    
+}
     
 }
