@@ -2500,7 +2500,9 @@ details-disclosure > details {
   margin: 0;
   position: absolute;
   width: 100%;
-  z-index: 1000
+  z-index: 1;
+    margin-top:150px;
+    
 }
 
 .light_cord {
