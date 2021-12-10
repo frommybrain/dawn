@@ -2500,7 +2500,7 @@ details-disclosure > details {
   fill: #134413;
 }
 
-.red_bulb {
+.pink_bulb {
   fill: #EEC4DE;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
@@ -2508,24 +2508,6 @@ details-disclosure > details {
 
 .green_bulb {
   fill: #2D754A;
-  stroke: #6D6D6D;
-  stroke-miterlimit: 10;
-}
-
-.blue_bulb {
-  fill: #2D754A;
-  stroke: #6D6D6D;
-  stroke-miterlimit: 10;
-}
-
-.white_bulb {
-  fill: #2D754A;
-  stroke: #6D6D6D;
-  stroke-miterlimit: 10;
-}
-
-.gold_bulb {
-  fill: #EEC4DE;
   stroke: #6D6D6D;
   stroke-miterlimit: 10;
 }
