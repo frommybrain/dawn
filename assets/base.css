@@ -2624,12 +2624,7 @@ details-disclosure > details {
       max-width: 33.3333% !important;
     }
     #Christmas_Lights {
-  		height: 100%;
-  		margin: 0;
-  		position: absolute;
-  		width: 100%;
-  		z-index: 1;
-    	margin-top:-25px;
+  		display:none;
 	}
   }
   
