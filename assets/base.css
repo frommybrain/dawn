@@ -2639,12 +2639,12 @@ details-disclosure > details {
     }
   
   	#Christmas_Lights {
-  		height: 660px;
+  		height: 200px;
   		margin: 0;
   		position: absolute;
   		width: 100%;
-  		z-index: 1;
-      top:50px;
+  		z-index: 1000;
+      top:0px;
 	}
     
 }
