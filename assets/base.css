@@ -2623,6 +2623,14 @@ details-disclosure > details {
       width: 100% !important;
       max-width: 33.3333% !important;
     }
+    #Christmas_Lights {
+  		height: 100%;
+  		margin: 0;
+  		position: absolute;
+  		width: 100%;
+  		z-index: 1;
+    	margin-top:-25px;
+	}
   }
   
   /* MOBILE STYLES */
@@ -2635,14 +2643,13 @@ details-disclosure > details {
       height:120px;
     }
   
-  #Christmas_Lights {
-  height: 100%;
-  margin: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-    margin-top:-25px;
-    
-}
+  	#Christmas_Lights {
+  		height: 100%;
+  		margin: 0;
+  		position: absolute;
+  		width: 100%;
+  		z-index: 1;
+    	margin-top:-25px;
+	}
     
 }
