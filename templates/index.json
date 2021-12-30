@@ -2,16 +2,28 @@
   "sections": {
     "16345074042d8c11b7": {
       "type": "image-banner",
+      "blocks": {
+        "b8c9d71e-e2ce-4a9d-a3cc-2f96a80f01ab": {
+          "type": "heading",
+          "settings": {
+            "heading": "SALE",
+            "heading_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "b8c9d71e-e2ce-4a9d-a3cc-2f96a80f01ab"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/FMB_Slider_Mere_Soeur_Christmas_w_border.jpg",
+        "image": "shopify:\/\/shop_images\/Website_Slider_Background_height_350.jpg",
         "image_height": "small",
         "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": false,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "1634496796e7fcb20d": {
