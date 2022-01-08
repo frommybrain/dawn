@@ -26,6 +26,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "🎉 Sign up to our newsletter 🎉",
               "color_scheme": "inverse",
@@ -40,11 +41,20 @@
               "color_scheme": "accent-1",
               "link": "shopify:\/\/collections\/all"
             }
+          },
+          "a43cf4ba-df99-4b9c-b591-3ad0245e71ed": {
+            "type": "announcement",
+            "settings": {
+              "text": "⛵️ Free shipping on all orders over £50",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "announcement-bar-0",
-          "42ddc1eb-7b6a-46f3-906d-4ec474b1780a"
+          "42ddc1eb-7b6a-46f3-906d-4ec474b1780a",
+          "a43cf4ba-df99-4b9c-b591-3ad0245e71ed"
         ],
         "settings": {
         }
