@@ -46,7 +46,7 @@
             "type": "announcement",
             "settings": {
               "text": "Use code 'MOTHERSDAY' for 60% OFF",
-              "color_scheme": "accent-1",
+              "color_scheme": "background-2",
               "link": ""
             }
           }
